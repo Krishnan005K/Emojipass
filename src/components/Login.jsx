@@ -43,7 +43,7 @@ export default function Login() {
 
     try {
       // Step 2: Search for the user from SheetDB by email
-      const response = await fetch(`https://sheetdb.io/api/v1/xt2cf0v1lqbz1/search?email=${email}`);
+      const response = await fetch(`https://sheetdb.io/api/v1/[Your API Endpoint ]/search?email=${email}`);
       const users = await response.json();
 
       if (users.length === 0) {
@@ -61,7 +61,7 @@ export default function Login() {
         localStorage.setItem("name", user.name);
 
         // Step 4: Update lastLoggedAt in SheetDB
-        await fetch(`https://sheetdb.io/api/v1/xt2cf0v1lqbz1/email/${email}`, {
+        await fetch(`https://sheetdb.io/api/v1/[Your API Endpoint ]/email/${email}`, {
           method: "PATCH",
           headers: {
             "Accept": "application/json",
