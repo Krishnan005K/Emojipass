@@ -1,0 +1,26 @@
+/* emojiKeyboard.css */
+.emoji-keyboard-container {
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    width: 320px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .emoji-keyboard-btn {
+    font-size: 2rem;
+    padding: 1px;
+    margin: 0.5px;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff42;
+  }
+  
+  .emoji-keyboard-btn:hover {
+    background-color: #ddd;
+  }
+  

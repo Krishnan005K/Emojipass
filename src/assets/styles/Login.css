@@ -1,0 +1,64 @@
+/* login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .login-container input {
+    padding: 10px;
+    font-size: 1rem;
+    display: flex;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .selected-emojis-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .selected-emoji {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .selected-emoji span {
+    font-size: 2rem;
+  }
+  
+  .remove-emoji-btn {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
