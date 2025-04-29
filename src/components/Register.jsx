@@ -45,7 +45,7 @@ export default function Register() {
 
     try {
       // Send POST request to SheetDB API
-      const response = await fetch("https://sheetdb.io/api/v1/xt2cf0v1lqbz1", {
+      const response = await fetch("https://sheetdb.io/api/v1/[Your API Endpoint ]", {
         method: "POST",
         headers: {
           "Accept": "application/json",
